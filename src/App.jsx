@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Socials from './components/Socials';
 import './App.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <Projects />
     <Skills />
     {/* <Testimonials /> */}
-    <Contact />
+    {/* <Contact /> */}
+    <Socials />
   </main>
 
   //   <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">

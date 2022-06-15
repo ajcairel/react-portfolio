@@ -54,3 +54,23 @@ export const projects = [
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" alt="The logo icon for Salesforce" title="Salesforce"/>,
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" alt="The logo icon for Jira" title="Jira"/>
   ]
+
+  export const socials = [
+      {
+        site: "View my LinkedIn",
+        url: "https://www.linkedin.com/in/alexandercairel/"
+      },
+      {
+          site: "View my Resume",
+          url: "https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/edit?usp=sharing"
+      },
+      {
+          site: "View GitHub",
+          url: "https://github.com/ajcairel"
+      },
+      {
+          site: "Send me an email",
+          url: <a href="mailto:alexanderjcairel@gmail.com" /> 
+      }
+
+  ]
