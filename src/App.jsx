@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import About from './components/About';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
 import Socials from './components/Socials';
 import './App.css';
 
@@ -12,13 +11,13 @@ function App() {
 
     // <main className="text-gray-400 bg-green-600 body-font">
   <main className="text-gray-400 bg-gradient-to-r from-cyan-800 to-blue-500 body-font">
-    <Navbar />
+    <NavBar />
     <About />
     <Projects />
     <Skills />
     {/* <Testimonials /> */}
-    {/* <Contact /> */}
-    <Socials />
+ 
+    {/* <Socials /> */}
   </main>
 
   //   <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">

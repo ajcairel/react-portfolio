@@ -1,4 +1,4 @@
-import { BadgeCheckIcon, CursorClickIcon } from "@heroicons/react/solid";
+import { ExternalLinkIcon} from "@heroicons/react/solid";
 import React from "react";
 import { socials } from "../data";
 
@@ -7,7 +7,7 @@ export default function Socials() {
     <section id="contact">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <CursorClickIcon className="w-10 inline-block mb-4" />
+          <ExternalLinkIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Socials, Resume, &amp; Email
           </h1>
@@ -29,25 +29,25 @@ export default function Socials() {
                   className="w-6 h-6 flex-shrink-0 mr-4"
                 />
                 <span className="title-font font-medium text-white">
-                  Visit My LinkedIn
+                  LinkedIn
                 </span>
               </div>
             </a>
           </div>
           <div className="p-2 sm:w-1/2 w-full">
             <a
-              href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/export?format=pdf"
               target="_blank"
             >
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  alt="The logo icon for GitHub"
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
+                  alt="PDF"
                   title="GitHub"
                   className="w-6 h-6 flex-shrink-0 mr-4"
                 />
                 <span className="title-font font-medium text-white">
-                  View My Resume
+                  Resume
                 </span>
               </div>
             </a>
@@ -62,7 +62,7 @@ export default function Socials() {
                   className="w-6 h-6 flex-shrink-0 mr-4"
                 />
                 <span className="title-font font-medium text-white">
-                  View My GitHub
+                GitHub
                 </span>
               </div>
             </a>
@@ -77,7 +77,7 @@ export default function Socials() {
                   className="w-6 h-6 flex-shrink-0 mr-4"
                 />
                 <span className="title-font font-medium text-white">
-                  Send Me An Email
+                  Email
                 </span>
               </div>
             </a>

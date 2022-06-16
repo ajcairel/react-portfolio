@@ -4,7 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gradient-to-r from-cyan-500 to-blue-500 body-font">
+    <section id="projects" className="text-gray-400 bg-gradient-to-r from-cyan-800 to-blue-500 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -12,16 +12,12 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {projects.map((project, idx) => (
             <div
-            //   href={project.link}
-              key={project.image}
+              key={idx}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
