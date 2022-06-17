@@ -21,6 +21,7 @@ export default function About() {
               <a
                 href="https://www.linkedin.com/in/alexandercairel/"
                 target="_blank"
+                rel="noopener"
               >
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
@@ -39,6 +40,7 @@ export default function About() {
               <a
                 href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/export?format=pdf"
                 target="_blank"
+                rel="noopener"
               >
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
@@ -54,7 +56,7 @@ export default function About() {
               </a>
             </div>
             <div className="p-2 sm:w-1/2 w-full">
-              <a href="https://github.com/ajcairel" target="_blank">
+              <a href="https://github.com/ajcairel" target="_blank" rel="noopener">
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
