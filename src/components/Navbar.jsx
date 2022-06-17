@@ -6,7 +6,7 @@ import React from "react";
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div id="top">
       <nav className="bg-gradient-to-r from-cyan-800 to-blue-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -21,28 +21,17 @@ export default function NavBar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#projects"
-                    // className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-
-                  >
-                    My Work
-                  </a>
-
-                  <a
                     href="#skills"
-                    // className="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-
                   >
                     Skills
+                    <SortDescendingIcon className="w-4 h-4 ml-1" />
                   </a>
-
                   <a
-                    href="#contact"
+                    href="#projects"
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                   >
-                    Contact Me
+                    My Work
                     <SortDescendingIcon className="w-4 h-4 ml-1" />
                   </a>
                 </div>
