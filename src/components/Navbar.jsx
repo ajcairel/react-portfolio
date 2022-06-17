@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import React from "react";
 
-export default function NavBar() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div id="top">
