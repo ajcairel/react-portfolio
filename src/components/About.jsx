@@ -11,10 +11,10 @@ export default function About() {
             Full Stack Developer
           </h3>
           <p className="mb-8 leading-relaxed text-white">
-            I am an experienced project manager that has built technical skills
-            in software engineering. My experience developing applications as
-            well as working cross-functionally and has taught me to utilize all
-            available resources to deliver a quality product.
+            Experienced Project Manager skilled in software engineering. My
+            experience working in cross-functional teams and developing applications
+            has taught me to optimize available resources in delivering a
+            quality product.
           </p>
           <div className="lg:flex sm:flex-wrap">
             <div className="p-2 sm:w-1/2 w-full">
@@ -56,7 +56,11 @@ export default function About() {
               </a>
             </div>
             <div className="p-2 sm:w-1/2 w-full">
-              <a href="https://github.com/ajcairel" target="_blank" rel="noopener">
+              <a
+                href="https://github.com/ajcairel"
+                target="_blank"
+                rel="noopener"
+              >
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
