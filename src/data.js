@@ -12,7 +12,7 @@ export const projects = [
     title: "U Feel Me?",
     subtitle: "Node.js, Express & MongoDB",
     description:
-      "Allows users to embed playlists and leave comments for from Spotify, Apple Music, and Soundcloud.",
+      "Allows users to embed playlists and leave comments for playlists from Spotify, Apple Music, and Soundcloud.",
     image: "./UFeelMe.png",
     link: "https://ufeelme.herokuapp.com/home",
     github: "https://ufeelme.herokuapp.com/home",
