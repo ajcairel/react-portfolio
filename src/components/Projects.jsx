@@ -37,7 +37,13 @@ export default function Projects() {
               </div>
               <div className="font-medium title-font mb-4 text-white">
                 <a href={project.github} target="_blank">
-                  GitHub <ExternalLinkIcon className="w-4 inline-block mb-1" />
+                   GitHub &nbsp;
+                   <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="The logo icon for GitHub"
+                  title="GitHub"
+                  className="w-4 inline-block mb-1"
+                /> 
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href={project.link} target="_blank">
