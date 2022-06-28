@@ -8,14 +8,14 @@ export default function Projects() {
       id="projects"
       className="text-gray-400 bg-gradient-to-r from-cyan-800 to-blue-500 body-font -z-1"
     >
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 pb-0">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white pt-6 pb-3">
           {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white pt-6">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
-        </div>
+        {/* <div className="flex flex-col w-full mb-20"> */}
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">dkfjdjf</p> */}
+        {/* </div> */}
         <div className="flex flex-wrap -m-4">
           {projects.map((project, idx) => (
             <div key={idx} className="sm:w-1/2 w-100 p-4">
@@ -25,7 +25,7 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 z-0">
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>

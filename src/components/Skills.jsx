@@ -6,8 +6,8 @@ export default function Skills() {
   return (
     <>
       <section id="skills">
-        <div className="container px-5 py-10 mx-auto">
-          <div className="text-center mb-20">
+        <div className="container px-5 py-10 mx-auto pt-0">
+          <div className="text-center mb-15">
             {/* <ChipIcon className="w-10 inline-block mb-4" /> */}
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 pt-6">
               Skills
@@ -27,7 +27,7 @@ export default function Skills() {
         </div>
       </section>
       <div class="relative h-0 w-full">
-        <div class="absolute bottom-0 right-0 h-16 w-16">
+        <div class="absolute bottom-0 right-0 h-16 w-16 pt-5">
           <a href="#top">
             <ChevronDoubleUpIcon className="w-8 h-8 ml-1 bg-gray-800 rounded border-0" />
           </a>
