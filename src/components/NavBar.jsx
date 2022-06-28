@@ -7,7 +7,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div id="top">
-      <nav className="bg-gradient-to-r from-cyan-800 to-blue-500 text-white fixed w-full">
+      <nav className="bg-gradient-to-r from-cyan-800 to-blue-500 text-white fixed w-full z-10">
       {/* <nav className="fixed text-white"> */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -26,14 +26,13 @@ export default function NavBar() {
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                   >
                     Skills
-                    <SortDescendingIcon className="w-4 h-4 ml-1" />
                   </a>
                   <a
                     href="#projects"
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                   >
                     My Work
-                    <SortDescendingIcon className="w-4 h-4 ml-1" />
+                    {/* <SortDescendingIcon className="w-4 h-4 ml-1" /> */}
                   </a>
                 </div>
               </div>
