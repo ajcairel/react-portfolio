@@ -12,7 +12,7 @@ export default function Skills() {
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 pt-6">
               Skills
             </h1>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 text-white mx-auto">
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 text-white mx-auto pb-5">
               I am always looking to improve on these skills as well as learn
               new ones, so this is an ever-growing list.
             </p>
