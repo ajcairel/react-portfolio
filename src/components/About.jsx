@@ -12,9 +12,9 @@ export default function About() {
           </h3>
           <p className="mb-8 leading-relaxed text-white">
             Experienced Project Manager skilled in software engineering. My
-            experience working in cross-functional teams and developing applications
-            has taught me to optimize available resources in delivering a
-            quality product.
+            experience working in cross-functional teams and developing
+            applications has taught me to optimize available resources in
+            delivering a quality product.
           </p>
           <div className="lg:flex sm:flex-wrap">
             <div className="p-2 w-full">
@@ -37,11 +37,6 @@ export default function About() {
               </a>
             </div>
             <div className="p-2 w-full">
-              {/* <a
-                href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/export?format=pdf"
-                target="_blank"
-                rel="noopener"
-              > */}
               <a
                 href="https://drive.google.com/file/d/1xTrzajIQQ5UqvqjXmWMC-UQ1szkRNaL6/view?usp=sharing"
                 target="_blank"
@@ -95,25 +90,11 @@ export default function About() {
               </a>
             </div>
           </div>
-          {/* <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-          </div> */}
         </div>
         <div className="lg:max-w-lg lg:w-1/2 md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            // src="./coding.svg
-            // src="./Pfp.JPG"
             src="./pfp.png"
           />
         </div>

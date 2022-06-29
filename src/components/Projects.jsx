@@ -9,13 +9,9 @@ export default function Projects() {
       className="text-gray-400 bg-gradient-to-r from-cyan-800 to-blue-500 body-font -z-1"
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 pb-0">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white pt-6 pb-3">
-          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
-            Apps I've Built
-          </h1>
-        {/* <div className="flex flex-col w-full mb-20"> */}
-          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">dkfjdjf</p> */}
-        {/* </div> */}
+        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white pt-6 pb-3">
+          Apps I've Built
+        </h1>
         <div className="flex flex-wrap -m-4">
           {projects.map((project, idx) => (
             <div key={idx} className="sm:w-1/2 w-100 p-4">
@@ -37,13 +33,13 @@ export default function Projects() {
               </div>
               <div className="font-medium title-font mb-4 text-white">
                 <a href={project.github} target="_blank">
-                   GitHub &nbsp;
-                   <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  alt="The logo icon for GitHub"
-                  title="GitHub"
-                  className="w-4 inline-block mb-1"
-                /> 
+                  GitHub &nbsp;
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="The logo icon for GitHub"
+                    title="GitHub"
+                    className="w-4 inline-block mb-1"
+                  />
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href={project.link} target="_blank">

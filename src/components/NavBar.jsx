@@ -7,7 +7,6 @@ export default function NavBar() {
   return (
     <div id="top">
       <nav className="bg-gradient-to-r from-cyan-800 to-blue-500 text-white fixed w-full z-10">
-      {/* <nav className="fixed text-white"> */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -19,14 +18,7 @@ export default function NavBar() {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Uzushiogakure_Symbol.svg/1200px-Uzushiogakure_Symbol.svg.png"
                     alt="Workflow"
                   />
-
                 </a>
-                {/* <img
-                  href="#about"
-                  className="h-8 w-8"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Uzushiogakure_Symbol.svg/1200px-Uzushiogakure_Symbol.svg.png"
-                  alt="Workflow"
-                /> */}
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -41,7 +33,6 @@ export default function NavBar() {
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                   >
                     My Work
-                    {/* <SortDescendingIcon className="w-4 h-4 ml-1" /> */}
                   </a>
                 </div>
               </div>
@@ -54,7 +45,6 @@ export default function NavBar() {
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
-                {/* <span className="sr-only">Open main menu</span> */}
                 {!isOpen ? (
                   <svg
                     className="block h-6 w-6"
@@ -104,7 +94,10 @@ export default function NavBar() {
         >
           {(ref) => (
             <div className="md:hidden z-10" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-right">
+              <div
+                ref={ref}
+                className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-right"
+              >
                 <a
                   href="#skills"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-10"
