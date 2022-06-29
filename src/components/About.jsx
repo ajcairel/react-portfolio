@@ -37,8 +37,13 @@ export default function About() {
               </a>
             </div>
             <div className="p-2 sm:w-1/2 w-full">
-              <a
+              {/* <a
                 href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/export?format=pdf"
+                target="_blank"
+                rel="noopener"
+              > */}
+              <a
+                href="https://drive.google.com/file/d/1xTrzajIQQ5UqvqjXmWMC-UQ1szkRNaL6/view?usp=sharing"
                 target="_blank"
                 rel="noopener"
               >
@@ -46,7 +51,7 @@ export default function About() {
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
                     alt="PDF"
-                    title="GitHub"
+                    title="Resume"
                     className="w-6 h-6 flex-shrink-0 mr-4"
                   />
                   <span className="title-font font-medium text-white">
