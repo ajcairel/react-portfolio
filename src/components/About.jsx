@@ -38,7 +38,7 @@ export default function About() {
             </div>
             <div className="p-2 w-full">
               <a
-                href="https://drive.google.com/file/d/1Dy0Oe69CbVZzqsHg1LoaLTYHJ_R6KCcn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1V3BXAveMnRWh8U7oLjNqO7SImJput5ir/view?usp=sharing"
                 target="_blank"
                 rel="noopener"
               >
