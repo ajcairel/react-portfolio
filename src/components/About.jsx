@@ -11,7 +11,7 @@ export default function About() {
             Full Stack Developer
           </h3>
           <p className="mb-8 leading-relaxed text-white">
-            Experienced Project Manager skilled in software engineering. My
+            Experienced Project Manager and software engineering bootcamp grad. My
             experience working in cross-functional teams and developing
             applications has taught me to optimize available resources in
             delivering a quality product.
@@ -38,7 +38,7 @@ export default function About() {
             </div>
             <div className="p-2 w-full">
               <a
-                href="https://drive.google.com/file/d/1V3BXAveMnRWh8U7oLjNqO7SImJput5ir/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DjJC2p1n409saaztRJaqJGK0ZUZRLfU5/view?usp=sharing"
                 target="_blank"
                 rel="noopener"
               >
