@@ -8,7 +8,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />
           </h1>
           <h3 className="sm:text-4xl text-xl mb-4 font-medium text-slate-400">
-            Full Stack Developer
+            Software Engineer
           </h3>
           <p className="mb-8 leading-relaxed text-white">
             Experienced Project Manager and software engineering bootcamp grad. My
