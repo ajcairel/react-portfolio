@@ -6,7 +6,7 @@ export const projects = [
       "The classic game of Connect 4 but instead of red versus blue, it is Naruto versus Sasuke.",
     image: "./Konnect4.png",
     link: "https://ajcairel.github.io/Konnect4/",
-    github: "https://ajcairel.github.io/Konnect4/",
+    github: "https://github.com/ajcairel/Konnect4",
   },
   {
     title: "U Feel Me?",
@@ -15,7 +15,7 @@ export const projects = [
       "Allows users to embed playlists and leave comments for playlists from Spotify, Apple Music, and Soundcloud.",
     image: "./UFeelMe.png",
     link: "https://ufeelme.herokuapp.com/home",
-    github: "https://ufeelme.herokuapp.com/home",
+    github: "https://github.com/ajcairel/ufeelme",
   },
   {
     title: "Squish Collector",
@@ -24,7 +24,7 @@ export const projects = [
       "Web app for tracking a squishmallow collection with image uploading capability.",
     image: "./Squish.png",
     link: "https://squishcollector.herokuapp.com/",
-    github: "https://ufeelme.herokuapp.com/home",
+    github: "https://github.com/ajcairel/squishcollector",
   },
   {
     title: "MyAniManga",
@@ -33,7 +33,7 @@ export const projects = [
       "Emulates MyAnimeList utilizing multiple APIs to get info on anime and manga.",
     image: "./AniManga.png",
     link: "https://myanimanga.herokuapp.com/",
-    github: "https://ufeelme.herokuapp.com/home",
+    github: "https://github.com/ajcairel/animanga",
   },
 ];
 
