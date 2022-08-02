@@ -1,4 +1,4 @@
-import { CodeIcon, ExternalLinkIcon } from "@heroicons/react/solid";
+import { CodeIcon, ExternalLinkIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
@@ -40,6 +40,11 @@ export default function Projects() {
                     title="GitHub"
                     className="w-4 inline-block mb-1"
                   />
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href={project.demo} target="_blank">
+                  Demo{" "}
+                  <VideoCameraIcon className="w-4 inline-block mb-1" />
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href={project.link} target="_blank">

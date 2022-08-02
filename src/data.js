@@ -7,6 +7,7 @@ export const projects = [
     image: "./Konnect4.png",
     link: "https://ajcairel.github.io/Konnect4/",
     github: "https://github.com/ajcairel/Konnect4",
+    demo: "https://vimeo.com/735637129"
   },
   {
     title: "U Feel Me?",
@@ -16,6 +17,7 @@ export const projects = [
     image: "./UFeelMe.png",
     link: "https://ufeelme.herokuapp.com/home",
     github: "https://github.com/ajcairel/ufeelme",
+    demo: "https://vimeo.com/735631443"
   },
   {
     title: "Squish Collector",
@@ -25,6 +27,7 @@ export const projects = [
     image: "./Squish.png",
     link: "https://squishcollector.herokuapp.com/",
     github: "https://github.com/ajcairel/squishcollector",
+    demo: "https://vimeo.com/735618174"
   },
   {
     title: "MyAniManga",
@@ -34,6 +37,7 @@ export const projects = [
     image: "./AniManga.png",
     link: "https://myanimanga.herokuapp.com/",
     github: "https://github.com/ajcairel/animanga",
+    demo: "https://vimeo.com/735621913"
   },
 ];
 
