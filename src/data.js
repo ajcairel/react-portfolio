@@ -11,9 +11,9 @@ export const projects = [
   },
   {
     title: "U Feel Me?",
-    subtitle: "Node.js, Express & MongoDB",
+    subtitle: "Node.js, Expres.js & MongoDB",
     description:
-      "Allows users to embed playlists and leave comments for playlists from Spotify, Apple Music, and Soundcloud.",
+      "Embedded playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
     image: "./UFeelMe.png",
     link: "https://ufeelme.herokuapp.com/home",
     github: "https://github.com/ajcairel/ufeelme",
@@ -23,7 +23,7 @@ export const projects = [
     title: "Squish Collector",
     subtitle: "Python, Django, AWS, & PostgreSQL",
     description:
-      "Web app for tracking a squishmallow collection with image uploading capability.",
+      "Squishmallow collection tracker that uses Django's built-in auth and template language with a mixture of class-based views and functions. Connected to AWS S3 to store uploaded photos.",
     image: "./Squish.png",
     link: "https://squishcollector.herokuapp.com/",
     github: "https://github.com/ajcairel/squishcollector",
@@ -33,7 +33,7 @@ export const projects = [
     title: "MyAniManga",
     subtitle: "MERN Stack",
     description:
-      "Emulates MyAnimeList utilizing multiple APIs to get info on anime and manga.",
+      "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive thanks to React-Bootstrap.",
     image: "./AniManga.png",
     link: "https://myanimanga.herokuapp.com/",
     github: "https://github.com/ajcairel/animanga",
