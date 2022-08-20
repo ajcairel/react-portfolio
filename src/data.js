@@ -13,7 +13,7 @@ export const projects = [
     title: "U Feel Me?",
     subtitle: "Node.js, Expres.js & MongoDB",
     description:
-      "Embedded playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
+      "Playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
     image: "./UFeelMe.png",
     link: "https://ufeelme.herokuapp.com/home",
     github: "https://github.com/ajcairel/ufeelme",
