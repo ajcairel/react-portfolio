@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Konnect 4",
-    subtitle: "JavaScript, HTML, CSS",
+    subtitle: "JavaScript, HTML, CSS. Hosted on GitHub pages.",
     description:
       "The classic game of Connect 4 but instead of red versus blue, it is Naruto versus Sasuke.",
     image: "./Konnect4.png",
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: "U Feel Me?",
-    subtitle: "Node.js, Expres.js & MongoDB",
+    subtitle: "Node.js, Express.js & MongoDB. Hosted on Heroku.",
     description:
       "Playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
     image: "./UFeelMe.png",
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: "Squish Collector",
-    subtitle: "Python, Django, AWS, & PostgreSQL",
+    subtitle: "Python, Django, Amazon A3, & PostgreSQL. Hosted on Heroku.",
     description:
       "Squishmallow collection tracker that uses Django's built-in auth and template language with a mixture of class-based views and functions. Connected to AWS S3 to store uploaded photos.",
     image: "./Squish.png",
@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: "MyAniManga",
-    subtitle: "MERN Stack",
+    subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Heroku.",
     description:
       "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive thanks to React-Bootstrap.",
     image: "./AniManga.png",
@@ -39,6 +39,17 @@ export const projects = [
     github: "https://github.com/ajcairel/animanga",
     demo: "https://vimeo.com/735621913"
   },
+  {
+    title: "Pinsta",
+    subtitle: "React.js, GraphQL & AWS Amplify. Hosted on AWS Global CDN",
+    description:
+      "SPA for posting notes with an option to include photos. Leverages GraphQl and the following Amazon services: Amplify, Cognito, DynamoDB & S3.",
+    image: "./pinstapic.png",
+    link: "https://main.d2wvop6dt3xsrr.amplifyapp.com/",
+    github: "https://github.com/ajcairel/amplify",
+    demo: "https://vimeo.com/744712436"
+  },
+ 
 ];
 
 export const skills = [
