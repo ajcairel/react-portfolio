@@ -1,5 +1,45 @@
 export const projects = [
   {
+    title: "Pinsta",
+    subtitle: "React.js, GraphQL & AWS Amplify. Hosted on AWS Global CDN",
+    description:
+    "SPA for posting notes with an option to include photos. Leverages GraphQL and the following Amazon services: Amplify, Cognito, DynamoDB & S3.",
+    image: "./pinstapic.png",
+    link: "https://main.d2wvop6dt3xsrr.amplifyapp.com/",
+    github: "https://github.com/ajcairel/amplify",
+    demo: "https://vimeo.com/744712436"
+  },
+  {
+    title: "MyAniManga",
+    subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Heroku.",
+    description:
+    "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive thanks to React-Bootstrap.",
+    image: "./AniManga.png",
+    link: "https://myanimanga.herokuapp.com/",
+    github: "https://github.com/ajcairel/animanga",
+    demo: "https://vimeo.com/735621913"
+  },
+  {
+    title: "Squish Collector",
+    subtitle: "Python, Django, Amazon A3, & PostgreSQL. Hosted on Heroku.",
+    description:
+    "Squishmallow collection tracker that uses Django's built-in auth and template language with a mixture of class-based views and functions. Connected to AWS S3 to store uploaded photos.",
+    image: "./Squish.png",
+    link: "https://squishcollector.herokuapp.com/",
+    github: "https://github.com/ajcairel/squishcollector",
+    demo: "https://vimeo.com/735618174"
+  },
+  {
+    title: "U Feel Me?",
+    subtitle: "Node.js, Express.js & MongoDB. Hosted on Heroku.",
+    description:
+    "Playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
+    image: "./UFeelMe.png",
+    link: "https://ufeelme.herokuapp.com/home",
+    github: "https://github.com/ajcairel/ufeelme",
+    demo: "https://vimeo.com/735631443"
+  },
+  {
     title: "Konnect 4",
     subtitle: "JavaScript, HTML, CSS. Hosted on GitHub pages.",
     description:
@@ -8,46 +48,6 @@ export const projects = [
     link: "https://ajcairel.github.io/Konnect4/",
     github: "https://github.com/ajcairel/Konnect4",
     demo: "https://vimeo.com/735637129"
-  },
-  {
-    title: "U Feel Me?",
-    subtitle: "Node.js, Express.js & MongoDB. Hosted on Heroku.",
-    description:
-      "Playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
-    image: "./UFeelMe.png",
-    link: "https://ufeelme.herokuapp.com/home",
-    github: "https://github.com/ajcairel/ufeelme",
-    demo: "https://vimeo.com/735631443"
-  },
-  {
-    title: "Squish Collector",
-    subtitle: "Python, Django, Amazon A3, & PostgreSQL. Hosted on Heroku.",
-    description:
-      "Squishmallow collection tracker that uses Django's built-in auth and template language with a mixture of class-based views and functions. Connected to AWS S3 to store uploaded photos.",
-    image: "./Squish.png",
-    link: "https://squishcollector.herokuapp.com/",
-    github: "https://github.com/ajcairel/squishcollector",
-    demo: "https://vimeo.com/735618174"
-  },
-  {
-    title: "MyAniManga",
-    subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Heroku.",
-    description:
-      "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive thanks to React-Bootstrap.",
-    image: "./AniManga.png",
-    link: "https://myanimanga.herokuapp.com/",
-    github: "https://github.com/ajcairel/animanga",
-    demo: "https://vimeo.com/735621913"
-  },
-  {
-    title: "Pinsta",
-    subtitle: "React.js, GraphQL & AWS Amplify. Hosted on AWS Global CDN",
-    description:
-      "SPA for posting notes with an option to include photos. Leverages GraphQl and the following Amazon services: Amplify, Cognito, DynamoDB & S3.",
-    image: "./pinstapic.png",
-    link: "https://main.d2wvop6dt3xsrr.amplifyapp.com/",
-    github: "https://github.com/ajcairel/amplify",
-    demo: "https://vimeo.com/744712436"
   },
  
 ];
