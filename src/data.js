@@ -13,7 +13,7 @@ export const projects = [
     title: "MyAniManga",
     subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Heroku.",
     description:
-    "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive thanks to React-Bootstrap.",
+    "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive through React-Bootstrap.",
     image: "./AniManga.png",
     link: "https://myanimanga.herokuapp.com/",
     github: "https://github.com/ajcairel/animanga",
@@ -21,11 +21,11 @@ export const projects = [
   },
   {
     title: "Squish Collector",
-    subtitle: "Python, Django, Amazon A3, & PostgreSQL. Hosted on Heroku.",
+    subtitle: "Python, Django, Amazon S3, & PostgreSQL. Hosted on Elastic Beanstalk.",
     description:
-    "Squishmallow collection tracker that uses Django's built-in auth and template language with a mixture of class-based views and functions. Connected to AWS S3 to store uploaded photos.",
+    "Collector item tracker that uses Django's built-in auth and template language with photo uploading via AWS S3. Connected to an AWS Relation Database Service.",
     image: "./Squish.png",
-    link: "https://squishcollector.herokuapp.com/",
+    link: "http://django-env.eba-j6cpgngx.us-west-2.elasticbeanstalk.com/",
     github: "https://github.com/ajcairel/squishcollector",
     demo: "https://vimeo.com/735618174"
   },
