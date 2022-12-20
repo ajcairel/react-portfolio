@@ -23,7 +23,7 @@ export const projects = [
     title: "Squish Collector",
     subtitle: "Python, Django, Amazon S3, & PostgreSQL. Hosted on Elastic Beanstalk.",
     description:
-    "Collector item tracker that uses Django's built-in auth and template language with photo uploading via AWS S3. Connected to an AWS Relation Database Service.",
+    "Collector item tracker that uses Django's built-in auth and template language with photo uploading via AWS S3. Connected to an AWS Relational Database Service.",
     image: "./Squish.png",
     link: "http://django-env.eba-j6cpgngx.us-west-2.elasticbeanstalk.com/",
     github: "https://github.com/ajcairel/squishcollector",
