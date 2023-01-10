@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: "U Feel Me?",
-    subtitle: "Node.js, Express.js & MongoDB. Hosted on Heroku.",
+    subtitle: "Node.js, Express.js & MongoDB. Hosted on Cyclic.",
     description:
     "Playlist sharing app that implements OAuth 2.0 with Passport middleware through the Google strategy.",
     image: "./UFeelMe.png",
