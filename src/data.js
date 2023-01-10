@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Pinsta",
-    subtitle: "React.js, GraphQL & AWS Amplify. Hosted on AWS Global CDN",
+    subtitle: "React.js, GraphQL & AWS Amplify. Hosted on AWS Global CDN.",
     description:
     "SPA for posting notes with an option to include photos. Leverages GraphQL and the following Amazon services: Amplify, Cognito, DynamoDB & S3.",
     image: "./pinstapic.png",
@@ -11,11 +11,11 @@ export const projects = [
   },
   {
     title: "MyAniManga",
-    subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Heroku.",
+    subtitle: "MongoDB, Express.js, Node.js & React.js. Hosted on Fly.io, migrated from Heroku.",
     description:
     "Anime & Manga list SPA that uses AJAX requests to communicate with server and API endpoints. Uses token-based auth with JSON Web Token and fully responsive through React-Bootstrap.",
     image: "./AniManga.png",
-    link: "https://myanimanga.herokuapp.com/",
+    link: "https://animanga.fly.dev/",
     github: "https://github.com/ajcairel/animanga",
     demo: "https://vimeo.com/735621913"
   },
