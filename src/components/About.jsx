@@ -11,10 +11,8 @@ export default function About() {
             Software Engineer
           </h3>
           <p className="mb-8 leading-relaxed text-white">
-            Multi-industry professional that has made the transition to software
-            engineering through an immersive bootcamp. My experience working in
-            cross-functional teams has taught me to optimize available resources
-            in delivering quality applications.
+          Software engineering bootcamp grad that is driven to deliver a responsive UI and structured server-side logic. My prior experiences have taught me to effectively communicate across orgs while managing time and resources efficiently. 
+
           </p>
           <div className="lg:flex sm:flex-wrap">
             <div className="p-2 w-full">
