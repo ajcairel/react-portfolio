@@ -1,10 +1,11 @@
 import { ChevronDoubleUpIcon, ChipIcon } from "@heroicons/react/solid";
-// import DevIcon from "devicon-react-svg";
 import { skills } from "../data";
+import FadeInSection from "./FadeIn";
 
 export default function Skills() {
   return (
     <>
+    <FadeInSection>
       <section id="skills">
         <div className="container px-5 py-10 mx-auto pt-0">
           <div className="text-center mb-15">
@@ -25,10 +26,12 @@ export default function Skills() {
           </div>
         </div>
       </section>
+
+    </FadeInSection>
       <div class="relative h-0 w-full">
         <div class="absolute bottom-0 right-0 h-16 w-16 pt-5">
           <a href="#top">
-            <ChevronDoubleUpIcon className="w-8 h-8 ml-1 bg-gray-800 rounded border-0" />
+            <ChevronDoubleUpIcon className="animate-bounce w-8 h-8 ml-1 bg-gray-800 rounded border-0" />
           </a>
         </div>
       </div>

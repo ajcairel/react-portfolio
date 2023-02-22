@@ -1,9 +1,13 @@
 import { CodeIcon, ExternalLinkIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import React from "react";
+import FadeInSection from "./FadeIn";
 import { projects } from "../data";
 
 export default function Projects() {
   return (
+
+    <FadeInSection>
+
     <section
       id="projects"
       className="text-gray-400 bg-gradient-to-r from-cyan-800 to-blue-500 body-font -z-1"
@@ -32,24 +36,25 @@ export default function Projects() {
                 </div>
               </div>
               <div className="font-medium title-font mb-4 text-white">
+              
                 <a href={project.github} target="_blank">
                   GitHub &nbsp;
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                     alt="The logo icon for GitHub"
                     title="GitHub"
-                    className="w-4 inline-block mb-1"
+                    className="hover:scale-125 ease-in-out duration-300 w-4 inline-block mb-1"
                   />
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href={project.demo} target="_blank">
                   Demo{" "}
-                  <VideoCameraIcon className="w-4 inline-block mb-1" />
+                  <VideoCameraIcon className="hover:scale-125 ease-in-out duration-300 w-4 inline-block mb-1" />
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href={project.link} target="_blank">
                   Deployed{" "}
-                  <ExternalLinkIcon className="w-4 inline-block mb-1" />
+                  <ExternalLinkIcon className="hover:scale-125 ease-in-out duration-300 w-4 inline-block mb-1" />
                 </a>
               </div>
             </div>
@@ -57,5 +62,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
+    </FadeInSection>
   );
 }

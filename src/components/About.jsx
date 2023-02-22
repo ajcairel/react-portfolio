@@ -1,5 +1,11 @@
+import FadeInSection from "./FadeIn";
+
+
 export default function About() {
+
   return (
+    <FadeInSection>
+
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center pb-0">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -21,7 +27,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener"
               >
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <div className="hover:scale-125 ease-in-out duration-300 bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                     alt="The logo icon for LinkedIn"
@@ -40,7 +46,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener"
               >
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <div className="hover:scale-125 ease-in-out duration-300 bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
                     alt="PDF"
@@ -59,7 +65,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener"
               >
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <div className="hover:scale-125 ease-in-out duration-300 bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                     alt="The logo icon for GitHub"
@@ -74,7 +80,7 @@ export default function About() {
             </div>
             <div className="p-2 w-full">
               <a href="mailto:alexanderjcairel@gmail.com?subject=I saw your portfolio and would like to connect!">
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                <div className="hover:scale-125 ease-in-out duration-300 bg-gray-800 rounded flex p-4 h-full items-center">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
                     alt="The logo icon for Google"
@@ -92,11 +98,13 @@ export default function About() {
         <div className="lg:max-w-lg lg:w-1/2 md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
+            id="animate-fade-in"
             alt="hero"
             src="./pfp.png"
           />
         </div>
       </div>
     </section>
+    </FadeInSection>
   );
 }
