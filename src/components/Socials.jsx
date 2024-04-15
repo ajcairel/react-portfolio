@@ -36,7 +36,7 @@ export default function Socials() {
           </div>
           <div className="p-2 sm:w-1/2 w-full">
             <a
-              href="https://docs.google.com/document/d/1ASCZa0yjUS21Lf_DBxw3Dem-qz28_rsdT7EJqRAbXRU/export?format=pdf"
+              href="https://drive.google.com/file/d/1d3mGE8BFmCjPIApIvDM96OXH65dOdAJJ/view?usp=sharing"
               target="_blank"
             >
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
